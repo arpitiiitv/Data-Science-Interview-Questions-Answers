@@ -61,9 +61,11 @@ The sample space is made of (x, y, z) tuples where each letter can take a value 
 Answer:
 1/6
 
-Explanation:
+Explanation 1:
 With 10 dices, the possible sums divisible by 6 are 12, 18, 24, 30, 36, 42, 48, 54, and 60. You don't actually need to calculate the probability of getting each of these numbers as the final sums from 10 dices because no matter what the sum of the first 9 numbers is, you can still choose a number between 1 to 6 on the last die and add to that previous sum to make the final sum divisible by 6. Therefore, we only care about the last die. And the probability to get that number on the last die is 1/6. So the answer is 1/6
 
+Explaination 2:
+Roll the die 9 times and add up the dots. The answer is x. Roll the die one more time. add the number thrown to x to get one and only one of the following answers; x+1, x+2, x+3, x+4, x+5 or x+6. since these answers are six sequential numbers one and only one of them will be divisible by six. Therefore the probability of the sum of ten rolls of a die being divisible by six is exactly 1/6.
 
 ### Q4: If you have three draws from a uniformly distributed random variable between 0 and 2, what is the probability that the median of three numbers is greater than 1.5? ###
 The right answer is 5/32 or 0.156. There are different methods to solve it:
